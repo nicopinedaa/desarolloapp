@@ -143,8 +143,28 @@
         app:layout_constraintBottom_toBottomOf="@id/txt_new_netflix"
         />
 
-"
+<ImageView
+    android:id="@+id/iv_facebook"
+    android:src="@drawable/ic_facebook_icon"
+    android:layout_width="@dimen/fb_logo_height"
+    android:layout_height="@dimen/fb_logo_height"
+    app:layout_constraintBottom_toTopOf="@id/txt_new_netflix"
+    android:layout_marginStart="@dimen/margin_default"
+    app:layout_constraintStart_toStartOf="parent"
 
+  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In Facebook"
+        android:textColor="@color/light_gray_netflix"
+        app:layout_constraintStart_toEndOf="@id/iv_facebook"
+        app:layout_constraintTop_toTopOf="@id/iv_facebook"
+        app:layout_constraintBottom_toBottomOf="@id/iv_facebook"
+        android:layout_marginStart="@dimen/margin_start_sign_up_now"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
