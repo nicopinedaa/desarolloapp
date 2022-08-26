@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LogInNetflixActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:src="@drawable/netlixlogo"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        android:backgroundTint="@color/secondary_netflix"
+        app:cardCornerRadius="@dimen/corner_radius"
+        app:layout_constraintBottom_toTopOf="@id/cv_password">
+
+        <EditText
+            android:layout_margin="@dimen/margin_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email_or_phone_number"
+            android:background="@null"
+            android:textColorHint="@color/third_netflix"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        android:backgroundTint="@color/secondary_netflix"
+        app:cardCornerRadius="@dimen/corner_radius"
+        app:layout_constraintBottom_toTopOf="@id/gl_center">
+
+        <EditText
+            android:layout_margin="@dimen/margin_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email_or_phone_number"
+            android:background="@null"
+            android:textColorHint="@color/third_netflix"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/gl_center"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:backgroundTint="@color/primary_netflix"
+        android:padding="@dimen/margin_default"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_sign_up"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="@id/cv_email"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:id="@+id/btn_sign_in_netflix"
+        android:text="@string/txt_login_sign_in_netflix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@id/cv_email"
+        app:layout_constraintStart_toStartOf="parent"
+     />
+
+    <CheckBox
+        android:id="@+id/cb_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:layout_constraintTop_toBottomOf="@id/btn_sign_in"
+        />
+
+    <TextView
+        android:id="@+id/txt_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/txt_remember_me"
+        app:layout_constraintStart_toEndOf="@id/cb_remember"
+        app:layout_constraintTop_toTopOf="@id/cb_remember"
+        app:layout_constraintBottom_toBottomOf="@id/cb_remember"/>
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/txt_need_help"
+        android:layout_marginEnd="@dimen/margin_default"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cb_remember"
+        app:layout_constraintBottom_toBottomOf="@id/cb_remember" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_new_netflix"
+        android:textColor="@color/light_gray_netflix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/margin_default"
+        android:id="@+id/txt_new_netflix"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_now_netflix"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/txt_new_netflix"
+        app:layout_constraintTop_toTopOf="@id/txt_new_netflix"
+        app:layout_constraintBottom_toBottomOf="@id/txt_new_netflix"
+        />
+
+"
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
