@@ -14,4 +14,7 @@
     <string name="btn_login">Log In</string>
     <string name="txt_new_netflix">New to Netflix?</string>
     <string name="sign_up_now_netflix">Sign up now</string>
+    <string name="txt_recycle_campus">Lista de campus</string>
+    <string name="txt_anahuac_cancun">Universidad Anáhuac - Campus Cancún</string>
+    <string name="txt_anahuac_"
 </resources>

@@ -10,4 +10,7 @@
     <dimen name="activity_login_netflix">30dp</dimen>
     <dimen name="fb_logo_height">28dp</dimen>
     <dimen name="margin_start_sign_up_now">10dp</dimen>
+
+    <dimen name="campus_image_height">200dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
 </resources>

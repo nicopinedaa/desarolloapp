@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/campus_image_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_medium"
+        app:cardCornerRadius="@dimen/corner_radius"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    <ImageView
+        android:src="@drawable/ic_campus_cancun"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/campus_image_height"
+        android:id="@+id/iv_campus"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black_50"
+            android:layout_height="@dimen/campus_image_height" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_anahuac_cancun"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_title"
+            android:layout_margin="@dimen/margin_medium"
+            android:id="@+id/tv_campus_name"
+            android:textAlignment="center"
+            />
+
+
+        <Button
+            android:id="@+id/btn_view_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ver más"
+            android:backgroundTint="@color/anahuac_orange"
+
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
