@@ -16,5 +16,10 @@
     <string name="sign_up_now_netflix">Sign up now</string>
     <string name="txt_recycle_campus">Lista de campus</string>
     <string name="txt_anahuac_cancun">Universidad Anáhuac - Campus Cancún</string>
-    <string name="txt_anahuac_"
+    <string name="txt_alerta">Alerta</string>
+    <string name="btn_alerta_with_buttom">Alerta con botones</string>
+    <string name="btn_alerta_with_options">Alerta con opciones</string>
+    <string name="login_title">LOGIN</string>
+    <string name="btn_login_activity">LOGIN</string>
+    <string name="btn_forgot">FORGOT PASSWORD?</string>
 </resources>

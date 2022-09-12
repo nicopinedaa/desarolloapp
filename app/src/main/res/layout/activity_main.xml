@@ -27,8 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Log In Facebook"
-        />
 
+        />
     <Button
         android:id="@+id/btn_netflix"
         android:layout_width="wrap_content"
@@ -43,6 +43,16 @@
         android:layout_gravity="center"
         android:text="@string/txt_recycle_campus"
         />
+
+    <Button
+        android:id="@+id/btn_alerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        android:text="@string/txt_alerta"/>
 
 
 
